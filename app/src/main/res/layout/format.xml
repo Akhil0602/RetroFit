@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:background="#a34523"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/cid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aa"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aa"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/title"
+        android:layout_below="@id/cid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aa"
+        android:background="#AAAAAA"
+        android:layout_marginTop="5dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aa"
+        tools:ignore="MissingConstraints" />
+
+
+
+</RelativeLayout>
